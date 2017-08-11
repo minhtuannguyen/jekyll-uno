@@ -2,7 +2,7 @@
 title: Minh Tuan Nguyen
 description: 'Welcome to my page'
 url: 'https://minhtuannguyen.github.io'
-baseurl: '/'
+baseurl: ''
 google_analytics: 'UA-35260710-2'
 disqus_shortname: 'mtnguyensblog'
 
