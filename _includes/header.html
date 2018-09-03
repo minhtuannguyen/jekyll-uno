@@ -26,47 +26,14 @@
 
           <nav class="cover-navigation navigation--social">
             <ul class="navigation">
-          
-		  
-          {% if site.author.twitter_username %}
-            <!-- Twitter -->
-            <li class="navigation__item">
-              <a href="http://twitter.com/{{ site.author.twitter_username }}" title="@{{ site.author.name }} on Twitter" target="_blank">
-                <i class="icon icon-social-twitter"></i>
-                <span class="label">Twitter</span>
-              </a>
-            </li>
-          {% endif %}
 
-          {% if site.author.facebook_username %}
-            <!-- Facebook -->
-            <li class="navigation__item">
-              <a href="http://fb.me/{{ site.author.facebook_username }}" title="{{ site.author.name }} on Facebook" target="_blank">
-                <i class="icon icon-social-facebook"></i>
-                <span class="label">Facebook</span>
-              </a>
-            </li>
-          {% endif %}
 
-          {% if site.author.linkedin_username %}
-            <!-- LinkedIn -->
-            <li class="navigation__item">
-              <a href="https://www.linkedin.com/in/{{ site.author.linkedin_username }}" title="{{ site.author.name }} on LinkedIn" target="_blank">
-                <i class="icon icon-social-linkedin"></i>
-                <span class="label">LinkedIn</span>
-              </a>
-            </li>
-          {% endif %}
-
-            {% if site.author.xing_username %}
-            <!-- Xing -->
-            <li class="navigation__item">
-              <a href="https://www.xing.com/profile/{{ site.author.xing_username }}" title="{{ site.author.name }} on Xing" target="_blank">
-                <i class="custom-icon icon-xing"></i>
-                <span class="label">Xing</span>
-              </a>
-            </li>
-            {% endif %}
+              <li class="navigation__item">
+                <a href="https://minhtuannguyen.github.io/cv/" title="CV" target="_blank">
+                  <i class="custom-icon  icon-file-text-alt"></i>
+                  <span class="label">CV</span>
+                </a>
+              </li>
 
           {% if site.author.github_username %}
             <!-- GitHub -->
@@ -78,6 +45,15 @@
             </li>
           {% endif %}
 
+              <!-- Resume -->
+
+              <li class="navigation__item">
+                <a href="https://resume.github.io/?minhtuannguyen" title="Minh Tuan Nguyen's Resume on Github" target="_blank">
+                  <i class="custom-icon  icon-file-text-alt"></i>
+                  <span class="label">Resume on Github</span>
+                </a>
+              </li>
+
             {% if site.author.stackoverflow_username %}
             <!-- Stackoverflow -->
             <li class="navigation__item">
@@ -88,14 +64,26 @@
             </li>
             {% endif %}
 
-              <!-- Resume -->
 
+              {% if site.author.linkedin_username %}
+              <!-- LinkedIn -->
               <li class="navigation__item">
-                <a href="https://resume.github.io/?minhtuannguyen" title="Minh Tuan Nguyen's Resume on Github" target="_blank">
-                  <i class="custom-icon  icon-file-text-alt"></i>
-                  <span class="label">Resume on Github</span>
+                <a href="https://www.linkedin.com/in/{{ site.author.linkedin_username }}" title="{{ site.author.name }} on LinkedIn" target="_blank">
+                  <i class="icon icon-social-linkedin"></i>
+                  <span class="label">LinkedIn</span>
                 </a>
               </li>
+              {% endif %}
+
+              {% if site.author.xing_username %}
+              <!-- Xing -->
+              <li class="navigation__item">
+                <a href="https://www.xing.com/profile/{{ site.author.xing_username }}" title="{{ site.author.name }} on Xing" target="_blank">
+                  <i class="custom-icon icon-xing"></i>
+                  <span class="label">Xing</span>
+                </a>
+              </li>
+              {% endif %}
 
           {% if site.author.email %}
             <!-- Email -->
