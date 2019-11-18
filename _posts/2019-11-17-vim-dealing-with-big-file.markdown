@@ -1,8 +1,8 @@
 ---
 title:  "Vim - dealing with big files"
 date:   2019-11-17 09:04:23
-categories: [vim big_file]
-tags: [jekyll]
+categories: [vim big_file editor]
+tags: [vim big_file editor]
 ---
 Vim is my daily driver in terms of editing file. Although I mostly use the "vanilla" vim without installing any plugin, Vim gets very slow when opening a very big file.     
   
